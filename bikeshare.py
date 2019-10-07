@@ -1,4 +1,4 @@
-Import time
+import time
 import pandas as pd
 import numpy as np
 import datetime as dt
@@ -51,7 +51,7 @@ def get_filters():
     print("\n\nLet's explore some US bikeshare data!\n")
 
     print("Type end at any time if you would like to exit the program.\n")
-
+    
     while True:
         city = choice("\nFor what city(ies) do you want do select data, "
                       "New York City, Chicago or Washington? Use commas "
@@ -89,8 +89,8 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing filtered data
     """
 
-    print("\nThe program is loading the data for the filters of your choice.")
-    start_time = time.time()
+     print("\nThe program is loading the data for the filters of your choice.")
+
 
     # filter the data according to the selected city filters
     if isinstance(city, list):
@@ -130,6 +130,7 @@ def load_data(city, month, day):
     print('-'*40)
 
     return df
+
 
 
 def time_stats(df):
@@ -190,7 +191,7 @@ def station_stats(df):
 def trip_duration_stats(df):
     """Display statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')
+    print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
     # display total travel time
