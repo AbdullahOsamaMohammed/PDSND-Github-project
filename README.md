@@ -8,7 +8,7 @@ Udacity Bikeshare Project
 
 ### Description
 
-In this project, I made a use of Python to explore data related to bike share systems for three major cities in the United States, Which is Chicago, New York City, and Washington, Also to Run statistics on multiple data pools related to bicycle sharing.
+Run statistics on multiple data pools related to bicycle sharing.
 
 ### Files Used
 
